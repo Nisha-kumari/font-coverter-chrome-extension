@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Font convertor",
+    "description": "Customize your fonts",
+    "icons": {
+        "19": "icon.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "version": "1.0",
+    "permissions": ["activeTab", "*://*/*"]
+}
